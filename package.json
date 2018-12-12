@@ -1,0 +1,23 @@
+{
+  "name": "my-service",
+  "version": "1.0.0",
+  "description": "Serverless example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.15",
+    "@types/node": "^10.12.12",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.31.3",
+    "serverless-plugin-typescript": "^1.1.5"
+  },
+  "author": {
+    "email": "kacper.perzankowski@htdevelopers.com",
+    "name": "Kacper Perzankowski"
+  },
+  "license": "MIT"
+}
